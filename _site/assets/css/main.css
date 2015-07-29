@@ -361,8 +361,8 @@ th {
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
-.page {
-  margin-top: 130px; }
+.page-content {
+  margin-top: 90px; }
 
 header {
   background-color: black;
@@ -441,3 +441,39 @@ header {
           header nav .nav-links a:active {
             padding-bottom: 2px;
             border-bottom: 1px solid #fff; } }
+#portfolio {
+  overflow: hidden; }
+  #portfolio .project-preview {
+    width: 33.33%;
+    padding-bottom: 33.33%;
+    position: relative;
+    float: left; }
+    #portfolio .project-preview .sharpen {
+      overflow: hidden;
+      position: absolute;
+      left: -10px;
+      right: -5px;
+      top: -10px;
+      bottom: -5px; }
+      #portfolio .project-preview .sharpen img {
+        width: 100%; }
+    #portfolio .project-preview .info {
+      opacity: 0;
+      position: absolute;
+      width: 100%;
+      top: 35%;
+      color: #fff; }
+      #portfolio .project-preview .info h1 {
+        font-weight: 400;
+        text-align: center;
+        font-size: 1.5em; }
+      #portfolio .project-preview .info p {
+        font-style: italic;
+        font-weight: 300;
+        text-align: center;
+        text-transform: lowercase; }
+    #portfolio .project-preview:hover img {
+      -webkit-filter: blur(4px);
+        -webkit-filter-filter: blur(4px); }
+    #portfolio .project-preview:hover .info {
+      opacity: 1; }
