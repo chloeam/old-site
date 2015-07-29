@@ -361,3 +361,37 @@ th {
   font-style: normal;
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+header {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 100%; }
+  header nav {
+    display: inline-block;
+    width: 100%; }
+    header nav div {
+      display: inline-block;
+      color: #fff; }
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase; }
+    header nav .site-title {
+      margin-left: 30px;
+      font-size: 1.8em;
+      line-height: 90px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      float: left; }
+    header nav .nav-links {
+      font-weight: 300;
+      line-height: 90px;
+      float: right; }
+      header nav .nav-links a {
+        margin-right: 30px; }
+        header nav .nav-links a:hover {
+          color: #fff;
+          padding-bottom: 5px;
+          border-bottom: 2px solid #fff; }

@@ -1,6 +1,17 @@
 <header>
 	<nav>
-		<a href="{{ site.baseurl }}/">{{ site.title }}</a>
+		<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+		<div class="nav-links">
+			<a href="{{ site.baseurl }}/">Portfolio</a>
+
+			{% for page in site.pages %}
+				{% if page.title %}
+				<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+
 	</nav>
 </header>
 
