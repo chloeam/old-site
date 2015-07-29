@@ -5,17 +5,14 @@ header
   left: 0
   height: 90px
   width: 100%
+  z-index: 9999
 
   nav
-    //padding-left: 30px
-    //padding-top: 20px
-    //padding-bottom: 20px
     display: inline-block
     width: 100%
 
     div
       display: inline-block
-      color: #fff
 
     a
       color: #fff
@@ -33,7 +30,6 @@ header
     .nav-links
       font-weight: 300
       line-height: 90px
-      //position: relative
       float: right
 
       a
@@ -44,5 +40,67 @@ header
           padding-bottom: 5px
           border-bottom: 2px solid #fff
 
-      
-          
+
+//        ### MEDIA QUERIES ###
+
+@media (max-width: 800px)       // tablets, large phones (touch screens)
+  
+  header
+    height: 35px
+
+    nav
+
+      .site-title
+        font-size: .9em
+        line-height: 35px
+
+      .nav-links
+        font-size: .9em
+        line-height: 35px
+
+        a
+
+          &:hover
+            padding-bottom: 2px                // for computer users
+            border-bottom: 1px solid #fff       // for computer users
+
+          &:active                              // for touchscreen users
+            padding-bottom: 2px
+            border-bottom: 1px solid #fff
+
+@media (max-width: 560px)       // phones, always touchscreen
+  header
+    position: static
+    height: null
+    padding-top: 7px
+    padding-bottom: 10px
+
+    nav
+      display: block
+
+      .site-title
+        float: none
+        display: block
+        margin: 0 0 0 0
+        text-align: center
+        line-height: normal
+
+      .nav-links
+        float: none
+        display: block
+        margin: 0 0 0 0
+        //margin-top: 7px
+        text-align: center
+        line-height: 30px
+
+        a
+          margin-right: 8px
+          margin-left: 8px
+
+
+          &:hover
+            border-bottom: none
+
+          &:active                              // for touchscreen users
+            padding-bottom: 2px
+            border-bottom: 1px solid #fff
