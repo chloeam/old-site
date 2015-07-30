@@ -364,6 +364,10 @@ th {
 .page-content {
   margin-top: 90px; }
 
+a {
+  text-decoration: none;
+  color: #00aedb; }
+
 header {
   background-color: black;
   position: fixed;
@@ -477,3 +481,42 @@ header {
         -webkit-filter-filter: blur(4px); }
     #portfolio .project-preview:hover .info {
       opacity: 1; }
+
+.blog {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px; }
+  .blog .post-preview {
+    overflow: hidden; }
+    .blog .post-preview time {
+      text-align: right;
+      text-transform: uppercase;
+      font-weight: 800;
+      letter-spacing: 0.1em; }
+    .blog .post-preview .left {
+      display: inline-block;
+      width: 20%;
+      float: left;
+      padding-right: 5%; }
+    .blog .post-preview .right {
+      display: inline-block;
+      width: 75%;
+      margin-bottom: 70px;
+      float: left; }
+      .blog .post-preview .right .text-preview {
+        line-height: 1.7;
+        margin-bottom: 40px; }
+      .blog .post-preview .right h2 {
+        margin-top: -8px;
+        margin-bottom: 20px;
+        font-weight: 800;
+        font-size: 3em; }
+        .blog .post-preview .right h2 a:hover {
+          color: black; }
+      .blog .post-preview .right .more {
+        padding: 15px;
+        border: 2px solid black;
+        color: black; }
+        .blog .post-preview .right .more:hover {
+          background-color: black;
+          color: #fff; }
