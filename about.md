@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is where my bio goes!
+Chloe Atchue-Mamlet is a graphic design student and web enthusiast in Philadelphia, PA. She loves design, writing, Netflix, and Amy Poehler, and is often the most eager person in the room.
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 

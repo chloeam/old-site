@@ -451,16 +451,14 @@ header {
     width: 33.33%;
     padding-bottom: 33.33%;
     position: relative;
-    float: left; }
+    float: left;
+    overflow: hidden; }
     #portfolio .project-preview .sharpen {
-      overflow: hidden;
-      position: absolute;
-      left: -10px;
-      right: -5px;
-      top: -10px;
-      bottom: -5px; }
+      position: absolute; }
       #portfolio .project-preview .sharpen img {
-        width: 100%; }
+        width: 100%;
+        -webkit-transform: scale(1.05);
+          -webkit-transform-transform: scale(1.05); }
     #portfolio .project-preview .info {
       opacity: 0;
       position: absolute;
@@ -477,8 +475,8 @@ header {
         text-align: center;
         text-transform: lowercase; }
     #portfolio .project-preview:hover img {
-      -webkit-filter: blur(4px);
-        -webkit-filter-filter: blur(4px); }
+      -webkit-filter: blur(3px);
+        -webkit-filter-filter: blur(3px); }
     #portfolio .project-preview:hover .info {
       opacity: 1; }
 

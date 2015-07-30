@@ -1,37 +1,23 @@
 #portfolio
   overflow: hidden
-  //width: 100%
 
   .project-preview
     width: 33.33%
     padding-bottom: 33.33%
     position: relative
     float: left
-    //-webkit-transform:scale(2)
-      //transform: scale(2)
-    //overflow: hidden
-    //z-index: 10
+    overflow: hidden
 
     .sharpen
-      overflow: hidden
+      //overflow: hidden
       position: absolute
-
-      //-webkit-transform:scale(1.2)
-        //transform: scale(1.2)
-      left: -10px                  // sort of works, 2 sharp edges
-      right: -5px
-      top: -10px
-      bottom: -5px
 
       img
         width: 100%
-        //-webkit-transform:scale(2)
-          //transform: scale(2)
-        //left: -5px
-        //right: -5px
-        //top: -5px
-        //bottom: -5px
-        //position: absolute
+        //height: auto
+        //overflow: hidden
+        -webkit-transform: scale(1.05)
+          transform: scale(1.05)
 
     .info
       opacity: 0
@@ -52,10 +38,9 @@
         text-transform: lowercase
 
     &:hover
-      //z-index: 0
 
       img
-        -webkit-filter: blur(4px)
-          filter: blur(4px)
+        -webkit-filter: blur(3px)
+          filter: blur(3px)
       .info
         opacity: 1
