@@ -1,0 +1,51 @@
+.post
+  //background-color: purple
+  width: 80%
+  margin: 0 auto
+  padding-top: 30px
+
+  .post-title
+    color: $accent-color
+
+  .content
+    overflow: hidden
+
+    .post-date
+      text-align: right
+
+    .left
+      display: inline-block
+      width: 15%
+      float: left
+      margin-left: 10%
+      padding-right: 5%
+      //background-color: yellow
+
+    .right
+      display: inline-block
+      width: 60%
+      margin-bottom: 70px
+      float: left
+      //background-color: red
+
+@media (max-width: 1000px)
+  .post
+    .content
+      .post-date
+        text-align: left
+
+      .left
+        width: 100%
+        margin: 0
+        padding: 0
+
+      .right 
+        width: 100%
+
+@media (max-width: 800px)
+  .post
+    width: 90%
+
+
+
+

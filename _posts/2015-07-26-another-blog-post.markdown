@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Another Blog Post"
+title:  "Another Blog Post: This One's a Longer Title!"
 date:   2015-07-26
 categories: blog
 ---

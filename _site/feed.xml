@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 30 Jul 2015 17:06:27 -0400</pubDate>
-    <lastBuildDate>Thu, 30 Jul 2015 17:06:27 -0400</lastBuildDate>
+    <pubDate>Fri, 31 Jul 2015 08:44:44 -0400</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2015 08:44:44 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -24,7 +24,7 @@
       </item>
     
       <item>
-        <title>Another Blog Post</title>
+        <title>Another Blog Post: This One&#39;s a Longer Title!</title>
         <description>&lt;p&gt;Here is a blog post with some stuff. This stuff sure is interesting!&lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel vehicula urna, quis semper mauris. Morbi id orci elementum, elementum lorem sit amet, gravida neque. Morbi congue id enim nec varius. In hac habitasse platea dictumst. Ut auctor nulla nisl, eget viverra purus lacinia a. Nulla sit amet lorem non dui imperdiet dignissim lobortis sit amet nisl. Praesent tempor nisi nec ante porta malesuada.&lt;/p&gt;
