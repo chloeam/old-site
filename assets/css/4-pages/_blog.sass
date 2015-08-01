@@ -3,52 +3,93 @@
   margin: 0 auto
   padding-top: 50px
 
+.post-preview
+  overflow: hidden
+  margin-top: 20px
+  margin-bottom: 50px
+  //background-color: purple
+
+.right
+  display: inline-block
+  width: 75%
+  //margin-bottom: 70px
+  margin: 0 //new
+  margin-bottom: 20px //new
+  float: right
+  //background-color: red
+
+h1 a
+
+  &:hover
+    color: black
+
+    //.post-date
+      //margin-top: 0
+
+.left
+  display: inline-block
+  width: 20%
+  float: right
+  padding-right: 5%
+  margin: 0 //new
+  //background-color: yellow
+
+      //&:hover                   //failed span
+
+        //.expand
+          //letter-spacing: .5em
+
+.text-preview
+  margin-bottom: 40px
+
+  .expand
+    font-weight: 800
+    letter-spacing: .3em
+    margin-left: 5px
+
+.more
+  //width: auto
+  padding: 15px
+  border: 2px solid black
+  color: black
+
+  &:hover
+    color: #fff
+    background-color: black
+          
+
+@media (max-width: 850px)
+  .blog
+    width: 80%
+
+  .left
+    width: 100%
+    padding-right: 0
+    text-align: left
+
+  .right 
+    width: 100%
+
+@media (max-width: 560px)
+  .blog
+    padding-top: 0
+
   .post-preview
-    overflow: hidden
-    margin-top: 20px
-    //background-color: purple
+    margin-bottom: 0
 
-    .post-date
-      margin-top: 0
+  .text-preview
+    display: none
 
-    .left
-      display: inline-block
-      width: 20%
-      float: left
-      padding-right: 5%
-      //background-color: yellow
+  .more
+    display: none
 
-    .right
-      display: inline-block
-      width: 75%
-      margin-bottom: 70px
-      float: left
-      //background-color: red
+  .right 
+    margin-bottom: 5px
 
-      .text-preview
-        margin-bottom: 40px
+  h1
+    font-size: 1.3em
 
-        span
-          font-size: 2em
+  .post-date
+    font-size: 0.7em
 
-          &:hover
-            letter-spacing: 10px
-
-      h1
-        margin-bottom: 20px
-        margin-top: 0
-
-        a
-
-          &:hover
-            color: black
-
-      .more
-        padding: 15px
-        border: 2px solid black
-        color: black
-
-        &:hover
-          background-color: black
-          color: #fff
 

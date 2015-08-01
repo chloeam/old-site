@@ -538,36 +538,73 @@ header {
   width: 70%;
   margin: 0 auto;
   padding-top: 50px; }
-  .blog .post-preview {
-    overflow: hidden;
-    margin-top: 20px; }
-    .blog .post-preview .post-date {
-      margin-top: 0; }
-    .blog .post-preview .left {
-      display: inline-block;
-      width: 20%;
-      float: left;
-      padding-right: 5%; }
-    .blog .post-preview .right {
-      display: inline-block;
-      width: 75%;
-      margin-bottom: 70px;
-      float: left; }
-      .blog .post-preview .right .text-preview {
-        margin-bottom: 40px; }
-        .blog .post-preview .right .text-preview span {
-          font-size: 2em; }
-          .blog .post-preview .right .text-preview span:hover {
-            letter-spacing: 10px; }
-      .blog .post-preview .right h1 {
-        margin-bottom: 20px;
-        margin-top: 0; }
-        .blog .post-preview .right h1 a:hover {
-          color: black; }
-      .blog .post-preview .right .more {
-        padding: 15px;
-        border: 2px solid black;
-        color: black; }
-        .blog .post-preview .right .more:hover {
-          background-color: black;
-          color: #fff; }
+
+.post-preview {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+.right {
+  display: inline-block;
+  width: 75%;
+  margin: 0;
+  margin-bottom: 20px;
+  float: right; }
+
+h1 a:hover {
+  color: black; }
+
+.left {
+  display: inline-block;
+  width: 20%;
+  float: right;
+  padding-right: 5%;
+  margin: 0; }
+
+.text-preview {
+  margin-bottom: 40px; }
+  .text-preview .expand {
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    margin-left: 5px; }
+
+.more {
+  padding: 15px;
+  border: 2px solid black;
+  color: black; }
+  .more:hover {
+    color: #fff;
+    background-color: black; }
+
+@media (max-width: 850px) {
+  .blog {
+    width: 80%; }
+
+  .left {
+    width: 100%;
+    padding-right: 0;
+    text-align: left; }
+
+  .right {
+    width: 100%; } }
+@media (max-width: 560px) {
+  .blog {
+    padding-top: 0; }
+
+  .post-preview {
+    margin-bottom: 0; }
+
+  .text-preview {
+    display: none; }
+
+  .more {
+    display: none; }
+
+  .right {
+    margin-bottom: 5px; }
+
+  h1 {
+    font-size: 1.3em; }
+
+  .post-date {
+    font-size: 0.7em; } }
