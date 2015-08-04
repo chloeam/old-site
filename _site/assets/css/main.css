@@ -593,6 +593,193 @@ footer {
 
   .email {
     margin-left: 7px; } }
+.case-study {
+  overflow: hidden; }
+  .case-study .row {
+    overflow: hidden;
+    position: relative; }
+  .case-study h1,
+  .case-study h2 {
+    text-align: center; }
+  .case-study h1 {
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 10px; }
+    @media (max-width: 400px) {
+      .case-study h1 {
+        font-size: 1.5em; } }
+  .case-study h2 {
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: 0; }
+    @media (max-width: 560px) {
+      .case-study h2 {
+        font-size: 1.3em; } }
+    @media (max-width: 400px) {
+      .case-study h2 {
+        font-size: 1.1em; } }
+  .case-study h3 {
+    margin: 0; }
+  .case-study p {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+
+.hero {
+  width: 100%;
+  max-width: 2000px;
+  height: 90vh;
+  max-height: 1500px;
+  background-size: cover;
+  background-position: center; }
+  @media (orientation: portrait) {
+    .hero {
+      height: 50vh; } }
+  @media (min-width: 2000px) {
+    .hero {
+      margin: 0 auto; } }
+
+.intro {
+  width: 80%;
+  max-width: 1300px;
+  margin: 50px auto; }
+  @media (max-width: 400px) {
+    .intro {
+      margin-top: 30px; } }
+
+.completed,
+.roles {
+  font-size: 1.1em;
+  display: inline-block;
+  width: 40%;
+  text-align: center; }
+  @media (max-width: 800px) {
+    .completed,
+    .roles {
+      display: block;
+      text-align: left;
+      width: auto; } }
+  @media (max-width: 400px) {
+    .completed,
+    .roles {
+      font-size: 1em; } }
+
+@media (max-width: 800px) {
+  .completed {
+    margin-bottom: 0; }
+
+  .roles {
+    margin-top: 0; } }
+.completed {
+  margin-right: 10%; }
+
+@media (min-width: 800px) {
+  .overview {
+    margin-top: 40px;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    -webkit-column-gap: 1.7em;
+    -moz-column-gap: 1.7em;
+    column-gap: 1.7em; } }
+
+.content {
+  width: 80%;
+  margin: 0 auto; }
+
+.large-img {
+  width: 100%; }
+
+.medium-img {
+  display: block;
+  width: 50%;
+  margin: 0 auto; }
+
+.left {
+  max-width: 48%;
+  float: left;
+  margin-right: 2%; }
+
+.right {
+  max-width: 48%;
+  float: right;
+  margin-left: 2%; }
+
+.half-l {
+  width: 50%;
+  float: left; }
+
+.half-r {
+  width: 50%;
+  float: right; }
+
+.caption {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 200; }
+
+.button {
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+  background-color: #00aedb;
+  color: white;
+  font-size: 1.4em; }
+  .button:hover {
+    background-color: black; }
+
+.quote-center {
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 1.7;
+  margin: 40px; }
+
+.quote-left {
+  background-color: whitesmoke;
+  color: #00aedb;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.5;
+  width: 35%;
+  float: left;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  border-left: 3px solid #00aedb; }
+  .quote-left a {
+    background-color: #00aedb;
+    color: white;
+    padding: 3px; }
+    .quote-left a:hover {
+      background-color: initial;
+      color: #00aedb;
+      text-decoration: underline; }
+
+.quote-right {
+  background-color: whitesmoke;
+  color: #00aedb;
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: 200;
+  line-height: 1.5;
+  width: 35%;
+  float: right;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+  padding-right: 15px;
+  border-right: 3px solid #00aedb; }
+  .quote-right a {
+    background-color: #00aedb;
+    color: white;
+    padding: 3px; }
+    .quote-right a:hover {
+      background-color: initial;
+      color: #00aedb;
+      text-decoration: underline; }
+
 #portfolio {
   overflow: hidden; }
   #portfolio .project-preview {
@@ -637,18 +824,16 @@ footer {
   overflow: hidden;
   margin-top: 20px;
   margin-bottom: 50px; }
-
-.right {
-  display: inline-block;
-  width: 75%;
-  margin: 0;
-  margin-bottom: 20px;
-  float: right; }
+  .post-preview .right {
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    margin-bottom: 20px;
+    float: right; }
 
 h1 a:hover {
   color: black; }
-
-.left {
+h1 a .left {
   display: inline-block;
   width: 20%;
   float: right;

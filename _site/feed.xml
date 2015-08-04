@@ -6,22 +6,9 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Aug 2015 12:06:55 -0400</pubDate>
-    <lastBuildDate>Sun, 02 Aug 2015 12:06:55 -0400</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2015 00:39:58 -0400</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2015 00:39:58 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
-    
-      <item>
-        <title>Chicago Travel Identity</title>
-        <description>&lt;p&gt;Here is one of my portfolio projects&lt;/p&gt;
-</description>
-        <pubDate>Sun, 26 Jul 2015 00:00:00 -0400</pubDate>
-        <link>/portfolio/2015/07/26/chicago-travel-poster/</link>
-        <guid isPermaLink="true">/portfolio/2015/07/26/chicago-travel-poster/</guid>
-        
-        
-        <category>portfolio</category>
-        
-      </item>
     
       <item>
         <title>Another Blog Post: This One&#39;s a Longer Title!</title>
@@ -73,6 +60,112 @@
         <category>update</category>
         
         <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Chicago: Rise High</title>
+        <description>&lt;h1 id=&quot;this-is-an-h1-in-markdown&quot;&gt;This is an H1 in Markdown&lt;/h1&gt;
+
+&lt;p&gt;This is a normal paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed hendrerit dolor, in ornare tellus. Sed nec posuere metus, et facilisis enim. Donec quis nisi eget nisi interdum laoreet vel eget lectus. Sed nec velit ultrices, pharetra turpis tempor, pulvinar turpis. Suspendisse vel venenatis urna. Quisque eu ante vel nisl sollicitudin mollis. Aenean congue, sem eget malesuada ullamcorper, dolor nulla interdum urna, vel finibus mauris diam eget libero. Phasellus ac elementum mauris. Mauris quis dui suscipit nisi lacinia consequat. Curabitur ultricies nunc feugiat tellus convallis, in pretium arcu commodo. Proin et consequat ligula. Vestibulum eget pellentesque turpis, in iaculis velit.&lt;/p&gt;
+
+&lt;h2 id=&quot;this-is-an-h2&quot;&gt;This is an H2&lt;/h2&gt;
+
+&lt;p&gt;Fusce sodales tempor nisi, sed imperdiet diam vulputate in. Quisque semper, odio sed ornare faucibus, ipsum leo tincidunt nulla, a laoreet nisi risus quis arcu. Suspendisse quis blandit mauris. Nullam interdum sit amet velit quis congue. Praesent nisl turpis, commodo in ipsum a, rhoncus bibendum felis. Phasellus tincidunt nibh nec purus malesuada fringilla. Mauris eu nisl a turpis porttitor pulvinar in ac neque. Morbi a pharetra nisl. Mauris tincidunt fringilla varius.&lt;/p&gt;
+
+&lt;h3 id=&quot;this-here-is-an-h3&quot;&gt;This Here is an H3!&lt;/h3&gt;
+
+&lt;p&gt;Suspendisse at eros ut nibh consequat mollis. Nullam cursus dictum lacus sit amet fringilla. Duis sed quam sed ipsum sollicitudin placerat. Cras quis placerat eros. Proin vestibulum ornare posuere. Maecenas congue sagittis felis ac hendrerit. Vestibulum aliquet sagittis purus et congue. Suspendisse ac sapien vel urna mollis porta porttitor et libero. Nulla facilisi. Vivamus a ornare ipsum. Aliquam sit amet molestie enim, eu suscipit odio. Quisque sit amet leo venenatis, lobortis nulla vel, condimentum sem. Suspendisse pretium dui mi, sit amet dictum erat convallis nec.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;large-img&quot; src=&quot;https://static.pexels.com/photos/7443/pexels-photo-large.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;And this is the image&#39;s caption.&lt;/p&gt;
+
+&lt;h2&gt;This is code&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;def print_hi(name)
+puts &quot;Hi, #{name}&quot;
+end
+print_hi(&#39;Tom&#39;)
+#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote class=&quot;quote-center&quot;&gt;This is a really profound blockquote. Isn&#39;t it divine? Doesn&#39;t it just make you ponder the meaning of life? Vivamus pellentesque semper ornare. Vestibulum pulvinar vehicula lorem ut dapibus.&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;here-is-a-paragraph-with-some-styling-and-links&quot;&gt;Here is a paragraph with some styling and links!&lt;/h1&gt;
+
+&lt;p&gt;Aenean pellentesque risus quam, &lt;em&gt;this text is emphasized&lt;/em&gt; pellentesque vitae. Vestibulum dolor tortor, semper semper cursus quis, elementum sed purus. Donec rhoncus lobortis nulla, consequat vestibulum neque sollicitudin ut. Etiam sagittis magna pulvinar ullamcorper consectetur. &lt;a href=&quot;http://menindrag.org&quot;&gt;This is an inline link&lt;/a&gt;, scelerisque non quam eget, molestie consectetur felis. Sed ultrices hendrerit lorem id mattis. &lt;strong&gt;This text is strongly emphasized&lt;/strong&gt;, ipsum eget vestibulum vestibulum, massa nisi tincidunt justo, aliquam euismod nulla erat at enim. Vivamus pellentesque semper ornare. Vestibulum pulvinar vehicula lorem ut dapibus. Morbi pulvinar vitae arcu quis ultricies. Morbi ac dictum risus. Proin et tellus quam.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;medium-img&quot; src=&quot;https://static.pexels.com/photos/7289/animal-dog-pet-sad-large.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p class=&quot;caption&quot;&gt;This is an image with the class &quot;medium-img&quot;. Isn&#39;t he a cute puppy?!&lt;/p&gt;
+
+&lt;h3 id=&quot;here-is-a-numbered-list&quot;&gt;Here is a numbered list:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;One&lt;/li&gt;
+  &lt;li&gt;Two&lt;/li&gt;
+  &lt;li&gt;Three&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;here-is-a-bulleted-list&quot;&gt;Here is a bulleted list:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hello!&lt;/li&gt;
+  &lt;li&gt;I’m a bulleted list.&lt;/li&gt;
+  &lt;li&gt;I’m pretty useful, much more so than my numbered cousin.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;this-is-when-things-need-to-be-split-in-half&quot;&gt;This is when things need to be split in half&lt;/h1&gt;
+
+&lt;h2 id=&quot;with-margin&quot;&gt;With margin&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;left&quot; src=&quot;https://static.pexels.com/photos/6025/food-holiday-vacation-summer-medium.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;https://static.pexels.com/photos/6374/flowers-desk-office-vintage-medium.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The page isn’t split exactly in half between them because there’s a small margin in the middle.&lt;/p&gt;
+
+&lt;h2 id=&quot;no-margin&quot;&gt;No margin&lt;/h2&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+	&lt;div class=&quot;left&quot;&gt;
+	&lt;h3&gt;This is a long heading, which hopefully wraps nicely. Oops, not quite long enough. There we go!&lt;/h3&gt;
+
+	Here, there&#39;s no margin and the page is split exactly in half. Magic! Well, not really. The picture on the right uses class &quot;half-r&quot; (because it&#39;s exactly half with no margin) while this text div uses class &quot;left.&quot; Ut vitae ultrices est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam consequat in velit vitae vulputate. Nullam ornare lorem vel tristique dictum. Sed volutpat, tortor in vestibulum tincidunt, orci urna lobortis nibh, sit amet laoreet leo nisl eget neque. Nam tincidunt elit nisl, eget vehicula nulla pretium eget. Nam ac orci at lacus pretium mollis ac id erat. Pellentesque non diam semper, egestas erat vitae, blandit urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis consequat justo in tortor tincidunt aliquam.
+	&lt;/div&gt;
+
+	&lt;img class=&quot;half-r&quot; src=&quot;https://static.pexels.com/photos/7471/landscape-water-bay-fog-medium.jpg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;This is a button link&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote class=&quot;quote-left&quot;&gt;This is a blockquote with a class of &quot;quote-left.&quot; This is a &lt;a href=&quot;#&quot;&gt;link!&lt;/a&gt; Vivamus pellentesque semper ornare. Vestibulum pulvinar vehicula lorem ut dapibus.&lt;/blockquote&gt;
+
+&lt;p&gt;Ut vitae ultrices est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam consequat in velit vitae vulputate. Nullam ornare lorem vel tristique dictum. Sed volutpat, tortor in vestibulum tincidunt, orci urna lobortis nibh, sit amet laoreet leo nisl eget neque. Nam tincidunt elit nisl, eget vehicula nulla pretium eget. Nam ac orci at lacus pretium mollis ac id erat. Pellentesque non diam semper, egestas erat vitae, blandit urna. &lt;/p&gt;
+
+&lt;p&gt;Fusce sodales tempor nisi, sed imperdiet diam vulputate in. Quisque semper, odio sed ornare faucibus, ipsum leo tincidunt nulla, a laoreet nisi risus quis arcu. Suspendisse quis blandit mauris. Nullam interdum sit amet velit quis congue. Praesent nisl turpis, commodo in ipsum a, rhoncus bibendum felis. Phasellus tincidunt nibh nec purus malesuada fringilla. Mauris eu nisl a turpis porttitor pulvinar in ac neque. Morbi a pharetra nisl. Mauris tincidunt fringilla varius.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis consequat justo in tortor tincidunt aliquam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget sollicitudin orci. Proin iaculis eleifend turpis elementum pulvinar. Duis eu porta odio, ac pretium augue. Aliquam lobortis auctor diam, in bibendum lacus viverra vel. Interdum et malesuada fames ac ante ipsum primis in faucibus.&lt;/p&gt;
+
+&lt;blockquote class=&quot;quote-right&quot;&gt;This is a blockquote with a class of &quot;quote-right.&quot; Blah, blah, blah, profound stuff goes here. Vivamus pellentesque semper ornare. Vestibulum pulvinar vehicula lorem ut dapibus.&lt;/blockquote&gt;
+
+&lt;p&gt;Ut vitae ultrices est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam consequat in velit vitae vulputate. Nullam ornare lorem vel tristique dictum. Sed volutpat, tortor in vestibulum tincidunt, orci urna lobortis nibh, sit amet laoreet leo nisl eget neque. Nam tincidunt elit nisl, eget vehicula nulla pretium eget. Nam ac orci at lacus pretium mollis ac id erat. Pellentesque non diam semper, egestas erat vitae, blandit urna. &lt;/p&gt;
+
+&lt;p&gt;Fusce sodales tempor nisi, sed imperdiet diam vulputate in. Quisque semper, odio sed ornare faucibus, ipsum leo tincidunt nulla, a laoreet nisi risus quis arcu. Suspendisse quis blandit mauris. Nullam interdum sit amet velit quis congue. Praesent nisl turpis, commodo in ipsum a, rhoncus bibendum felis. Phasellus tincidunt nibh nec purus malesuada fringilla. Mauris eu nisl a turpis porttitor pulvinar in ac neque. Morbi a pharetra nisl. Mauris tincidunt fringilla varius.&lt;/p&gt;
+
+&lt;p&gt;Ut vitae ultrices est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam consequat in velit vitae vulputate. Nullam ornare lorem vel tristique dictum. Sed volutpat, tortor in vestibulum tincidunt, orci urna lobortis nibh, sit amet laoreet leo nisl eget neque. Nam tincidunt elit nisl, eget vehicula nulla pretium eget. Nam ac orci at lacus pretium mollis ac id erat. Pellentesque non diam semper, egestas erat vitae, blandit urna. &lt;/p&gt;
+
+&lt;p&gt;Fusce sodales tempor nisi, sed imperdiet diam vulputate in. Quisque semper, odio sed ornare faucibus, ipsum leo tincidunt nulla, a laoreet nisi risus quis arcu. Suspendisse quis blandit mauris. Nullam interdum sit amet velit quis congue. Praesent nisl turpis, commodo in ipsum a, rhoncus bibendum felis. Phasellus tincidunt nibh nec purus malesuada fringilla. Mauris eu nisl a turpis porttitor pulvinar in ac neque. Morbi a pharetra nisl. Mauris tincidunt fringilla varius.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Jun 2015 00:00:00 -0400</pubDate>
+        <link>/portfolio/chicago</link>
+        <guid isPermaLink="true">/portfolio/chicago</guid>
+        
+        
+        <category>portfolio</category>
         
       </item>
     

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<style type="text/css">
+  {{ page.style }}
+</style>
+
+<div class="case-study">
+  <div class="hero"></div>
+
+  <div class="intro">  
+    <h1 class="case-study-title">{{ page.title }}</h1>
+    <h2 class="tagline">{{ page.tagline }}</h2>
+
+    <p class="completed"><em>Completed:</em> {{ page.date | date: "%B, %Y" }}</p>
+    <p class="roles"><em>Roles:</em> {{ page.roles }}</p>
+  
+    <p class="overview">{{ page.overview }}</p>
+  </div>
+
+  <article class="content">
+    {{ content }}
+  </article
+</div>
+
+  
+
+  <!--<h1 class="piece-title">{{ page.title }}</h1>
+  
+  <div class="content">
+    <p class="post-date left">{{ page.date | date: "%b %-d, %Y" }}</p>
+
+    <article class="post-content right">
+      {{ content }}
+    </article>
+  </div>
+
+</div>-->
